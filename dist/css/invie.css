@@ -14,6 +14,10 @@
           justify-content: space-between;
 }
 
+.InvieHero-copy-title{
+  font-size: 63px;
+}
+
 .InvieFooter {
   background-color: #273b47;
 }

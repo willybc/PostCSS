@@ -2,6 +2,8 @@
   --bg-body: #fafafa;
   --bg-header: #466173;
   --bg-footer: #273b47;
+
+  --fontSize: 18px;
 }
 
 .InvieHero {
@@ -13,6 +15,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  &-copy {
+    &-title{
+      font-size: calc(var(--fontSize) * 3.5);
+    }
   }
 }
 
