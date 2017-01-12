@@ -1,0 +1,10 @@
+body {
+  background: yellow;
+}
+
+.claseTest {
+  display: -webkit-box;
+  display: flex;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
