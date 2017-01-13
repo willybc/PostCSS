@@ -3,6 +3,10 @@
   --bg-header: #466173;
   --bg-footer: #273b47;
 
+  --btn-gradient: #fd324e;
+  --btn-gradient-start: color(var(--btn-gradient) blackness(30%));
+  --btn-gradient-end: color(var(--btn-gradient) lightness(+10%) hue(10%));
+
   --fontSize: 18px;
 }
 
@@ -30,6 +34,17 @@
   &-copy {
     &-title{
       font-size: calc(var(--fontSize) * 3.5);
+    }
+    &-btn{
+      border-radius: 12px;
+      border: none;
+      color: var(--bg-boody);
+      padding: 7px 12px;
+      cursor: pointer;
+      font-size: var(--fontSize);
+      text-decoration: none;
+      background: var(--btn-gradient);
+      background: linear-gradient(to left, var(--btn-gradient-start), var(--btn-gradient-end))
     }
   }
 }

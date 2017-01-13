@@ -27,6 +27,19 @@
   font-size: 63px;
 }
 
+.InvieHero-copy-btn{
+  border-radius: 12px;
+  border: none;
+  color: var(--bg-boody);
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background: #fd324e;
+  background: -webkit-linear-gradient(right, rgb(179, 51, 68), rgb(253, 124, 98));
+  background: linear-gradient(to left, rgb(179, 51, 68), rgb(253, 124, 98))
+}
+
 .InvieFooter {
   background-color: #273b47;
 }
