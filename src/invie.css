@@ -5,7 +5,7 @@
 
   --btn-gradient: #fd324e;
   --btn-gradient-start: color(var(--btn-gradient) blackness(30%));
-  --btn-gradient-end: color(var(--btn-gradient) lightness(+10%) hue(10%));
+  --btn-gradient-end: color(var(--btn-gradient) lightness(+1  0%) hue(10%));
 
   --fontSize: 18px;
 }
@@ -29,6 +29,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  &-logo {
+    transition: all 0.3s ease-in;
+    &:hover {
+      filter: blur(4px);
+    }
   }
 
   &-copy {
