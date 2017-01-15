@@ -93,7 +93,7 @@
   &-copy {
     &-title{
       color: var(--bg-body);
-      font-size: responsive 32px 70px; /* Como minimo 32px y como maximo 70px*/ 
+      font-size: responsive 32px 70px; /* Como minimo 32px y como maximo 70px*/
     }
     &-btn{
       @mixin btn var(--bg-body), var(--btn-gradient), var(--btn-gradient-start), var(--btn-gradient-end);

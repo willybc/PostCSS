@@ -8,7 +8,7 @@ var lost = require('lost')
 var atImport = require('postcss-import')
 var csswring = require('csswring')
 var browserSync = require('browser-sync').create()
-
+var mqpacker = require('css-mqpacker')
 // Servidor de desarrollo
 gulp.task('serve', function() {
   browserSync.init({
@@ -27,7 +27,8 @@ gulp.task('css', function () {
     lost(),
     rucksack(),
     cssnext({ browsers: ['> 5%', 'ie 8'] }),
-    csswring()
+    mqpacker,
+    //csswring()
   ]
 
   return gulp.src('./src/invie.css')
